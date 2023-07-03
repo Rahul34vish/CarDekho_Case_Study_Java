@@ -1,0 +1,160 @@
+behave as an admin set retrive update delete
+
+                 Car dekho case study
+
+=============== menu ===============================
+ menu class(main method class)
+switch case---
+1. add car details
+2. search car details
+3. update car deatils
+4. delete car details
+5. Exit
+
+
+1. How many cars you want to add?
+   - call car class(showing variables - entity class) make variables private - to avoid unauthorised or illegal access 
+    = private car_id, private string car_name, Private String model,
+      private string brand, private string fuel type, private double price.
+     
+      + getter() & setter() - helper methods
+      toString method override         (car.set(car_id)).....
+
+carOperations(implementation of the features - operation class) class addCar method should be called after entering 1
+and searchCar() , updateCar(), deleteCar()
+
+3 packages main(menu) , operation(carOperation) , entity(car class)
+
+=================search==========
+search car by 
+switch case---
+1. name
+2. brand
+3.fuel type
+4. go back
+ 
+if i click 1
+enter name: same name
+ 
+if i click 2
+enter brand: same brand name
+
+if i click 3
+enter fuel type: 
+
+================update===============
+display all car records
+then'
+enter car_id not to give permission to update this
+enter car new name:
+
+=========================delete==============================
+list<car(generic)
+
+
+
+
+package naming convertion
+Format:
+domain.host_name.project_name
+ex.
+com.Jspider.cardekho_case_study  - base package
+com.Jspider.cardekho_case_study.entity
+com.Jspider.cardekho_case_study.operation
+com.Jspider.cardekho_case_study.main
+
+
+cltr+shift+o --- imported but not used or used but not imported the class
+alt+shift+s --- generator
+cltr+d --- delete a line
+type scanner and hit cltr+space +enter--- to import scanner class
+
+
+.equalsIgnoreCase(name)
+getallcarderail
+scanner.close
+let2oqu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
